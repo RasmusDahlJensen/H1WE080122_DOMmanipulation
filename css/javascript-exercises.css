@@ -51,3 +51,22 @@ button:hover {
 #btnpanel div:not(:first-of-type) {
   margin-top: 10px;
 }
+
+.bigText{
+  transform: scale(1.2);
+}
+
+@keyframes fromLeft {
+  from{
+    margin-left: -100%;
+  }
+  to{
+    margin: 0;
+  }
+}
+
+
+.testAnimation{
+  animation-name: fromLeft;
+  animation-duration: 3s;
+}
